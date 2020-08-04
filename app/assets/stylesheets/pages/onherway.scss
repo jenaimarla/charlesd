@@ -1,0 +1,40 @@
+
+
+.main-container {
+  position: absolute;
+}
+
+.link, .link1, .link2 {
+  margin-top: 5px;
+  margin-left: 5px;
+  a {
+    text-decoration: none;
+    font-family: 'Orbitron';
+    font-size: 20px;
+    color: black;
+  }
+}
+
+.cards {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  margin-left: 500px;
+  margin-top: 200px;
+}
+
+.card1, .card2, .card3 {
+  border-style: solid;
+  border-color: #FCD307;
+  width: 100px;
+  height: 150px;
+  border-bottom-width: 100px;
+
+}
+
+svg {
+  position: relative;
+  margin-left: -50px;
+  height: 700px;
+}
