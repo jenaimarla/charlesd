@@ -1,27 +1,32 @@
+<div class="link">
+  <%= link_to 'On her way', root_path %>
+</div>
 
-    <div class="link">
-       <ul><%= link_to 'On her way', about_path %>, <%= link_to 'Tower', root_path %>, <a href="https://www.instagram.com/charlesdur.nd/" style='font-size:15px'>instagram</a>, <a href="mailto: hi@charlesdurand.com" style='font-size:15px'>contact</a></ul>
-    </div>
+<div class="links">
+  <%= link_to 'Charles Durand', about_path %>, <%= link_to 'Cards', onherway_path %>
+</div>
 
 
 <div class="show">
     <div class="tour">
-      <%= render partial: 'shared/svgs/tour' %>
+<%= render partial: 'shared/svgs/tour' %>
         <h1>Creation 1</h1>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </div>
 
 
-  <div class="photos">
-    <div class="card1">
+  <div class="photo1">
       <%= image_tag("creation2.jpg") %>
+      <h1>1</h1>
     </div>
 
-    <div class="card2">
+    <div class="photo2">
       <%= image_tag("creation1.jpg") %>
+      <h1>2</h1>
     </div>
   </div>
 
 
-
+<div class="footer">
+<a href="https://www.instagram.com/charlesdur.nd/" style='font-size:15px'>instagram</a>, <a href="mailto: hi@charlesdurand.com" style='font-size:15px'>contact</a></ul>
 </div>

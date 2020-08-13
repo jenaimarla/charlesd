@@ -1,10 +1,30 @@
 .show  {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .photos {
+  display: flex;
+  justify-content: space-around;
   margin-right: 200px;
-  margin-top: 131px;
+  margin-top: 50px;
 }
 
+
+.photo1, .photo2 {
+ background-color: #ff9900;
+  width:400px;
+  height: 500px;
+  img {
+    width: 250px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 75px;
+  }
+  h1 {
+    font-family: Orbitron;
+    font-weight:lighter;
+    text-align: right;
+  }
+}
