@@ -1,3 +1,101 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+//home
+
+html {
+  background-color: #eeeeee;
+}
+
+.writing {
+  position: relative;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  h1 {
+    color: black;
+    font-family: 'Orbitron';
+    font-weight: lighter;
+    font-size: 70px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.home_video {
+ width: 100vw;
+ height: 100vh;
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ object-fit: cover;
+ top: 0;
+ z-index: -2;
+}
+
+
+// bio
+
+.text {
+  text-align: center;
+  margin-top: 70px;
+  position: absolute;
+  margin-left: 450px;
+  margin-right: 450px;
+  border-style: solid;
+  border-bottom-width: 150px;
+  border-color: #fcd307;
+  padding: 20px;
+  border-top-width: 2px;
+  h1 {
+    font-family: 'News Cycle';
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+.signature {
+  svg  {
+    margin-left: 800px;
+    margin-top: 400px;
+    transform: rotate(-20deg);
+    height: 300px;
+  }
+}
+
+.tour {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  text-align: left;
+  width: 550px;
+  h1 {
+    font-size: 25px;
+    font-family: Orbitron;
+    font-weight: lighter;
+    position: relative;
+  }
+  p {
+    font-family:'News Cycle';
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    margin: 50px;
+  }
+  svg {
+    margin-top:100px;
+    margin-left: 380px;
+    position: absolute;
+    height: 500px;
+    // width: 400px;
+  }
+}
