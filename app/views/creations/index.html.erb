@@ -8,30 +8,29 @@
 
 <div class="cards">
   <div class="card1">
-    <%= image_tag("creation2.jpg") %>
+    <%= image_tag("photo1.jpeg") %>
+      <div class="creation1">
+        <%= link_to creation.title , creation_path(:creation_id => @creation.id) %>
+      </div>
   </div>
 
   <div class="card2">
-    <%= image_tag("creation 3.jpg") %>
+    <%= image_tag("photo2.jpeg") %>
+      <div class="creation2">
+        <h1>creation two</h1>
+      </div>
   </div>
 
   <div class="card3">
-    <%= image_tag("creation2.jpg") %>
+    <%= image_tag("photo3.jpeg") %>
+      <div class="creation3">
+        <h1>creation three</h1>
+      </div>
   </div>
 
 </div>
 
-<div class="creations">
-  <div class="creation1">
-    <h1>creation one</h1>
-  </div>
-  <div class="creation2">
-    <h1>creation two</h1>
-  </div>
-  <div class="creation3">
-    <h1>creation three</h1>
-  </div>
-</div>
+
 
 <div class="footer">
 <a href="https://www.instagram.com/charlesdur.nd/" style='font-size:15px'>instagram</a>, <a href="mailto: hi@charlesdurand.com" style='font-size:15px'>contact</a></ul>

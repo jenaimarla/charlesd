@@ -44,26 +44,43 @@ html {
 
 // bio
 
+
 .text {
+  position: absolute;
+  width: 300px;
+  height: 400px;
   text-align: center;
   margin-top: 70px;
   position: absolute;
-  margin-left: 450px;
-  margin-right: 450px;
+  margin-left: 500px;
+  margin-right: 500px;
   border-style: solid;
-  border-bottom-width: 150px;
+  border-width: 3px;
   border-color: #fcd307;
   padding: 20px;
-  border-top-width: 2px;
+}
+
+.text1{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
   h1 {
+    text-align: center;
     font-family: 'News Cycle';
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: lighter;
+  }
+  em {
+    font-size: 12px;
   }
 }
 
+
 .signature {
+  position: relative;
   svg  {
     margin-left: 800px;
     margin-top: 400px;

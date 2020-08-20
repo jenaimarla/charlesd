@@ -11,6 +11,6 @@ class CreationsController < ApplicationController
   private
 
   def event_params
-    params.require(:creation).permit(:name, :description, :image)
+    params.require(:creation).permit(:title, :description, :image)
   end
 end

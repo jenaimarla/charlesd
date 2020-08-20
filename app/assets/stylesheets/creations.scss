@@ -34,16 +34,31 @@
 }
 
 .card1, .card2, .card3 {
-  background-color: #480032;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #480032;
   // border-radius: 20px;
   width:300px;
   height: 400px;
   img {
-    width: 250px;
-    height: 400px;
+    border-style: solid;
+    border-color: #fafafa;
+    border-width: 8px;
+    border-radius: 5px;
+    border-bottom-width: 50px;
+    width: 230px;
+    height: 380px;
     margin-top: 50px;
     margin-left: 75px;
   }
+}
+
+.card2 {
+  margin-top: 30px;
+}
+
+.card3 {
+  margin-top: -20px;
 }
 
 .creations {
@@ -52,7 +67,10 @@
   margin-top: 10px;
 }
 
-.creation1, .creation2, .creation3 {
+.creation1, .creation2, .creation3{
+  margin-top: -40px;
+  margin-left: 40px;
+  position: relative;
   border-style: solid;
   border-color: #ff9900;
   background-color: #ff9900;
@@ -64,6 +82,8 @@
     text-align: center;
   }
 }
+
+
 
 .footer {
   // width: 200px;
