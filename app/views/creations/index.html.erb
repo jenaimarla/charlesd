@@ -7,27 +7,26 @@
 </div>
 
 <div class="cards">
-  <div class="card1">
-    <%= image_tag("photo1.jpeg") %>
-      <div class="creation1">
-        <%= link_to creation.title , creation_path(:creation_id => @creation.id) %>
-      </div>
-  </div>
+  <% @creations.each do |creation|%>
+    <% if creation.title == 'Creation 2' %>
+        <div class="card1">
+          <%= creation.first_photo %>
+            <div class="creations">
+              <%= link_to creation.title, creation_path(creation) %>
+                <%= link_to 'Edit', edit_creation_path(creation)  %>
+            </div>
+        </div>
+    <% else creation.title == 'Creation 3' %>
+      <div class="card2">
+          <%= creation.first_photo %>
+            <div class="creations">
+              <%= link_to creation.title, creation_path(creation) %>
+              <%= link_to 'Edit', edit_creation_path(creation)  %>
+            </div>
+        </div>
+    <% end %>
 
-  <div class="card2">
-    <%= image_tag("photo2.jpeg") %>
-      <div class="creation2">
-        <h1>creation two</h1>
-      </div>
-  </div>
-
-  <div class="card3">
-    <%= image_tag("photo3.jpeg") %>
-      <div class="creation3">
-        <h1>creation three</h1>
-      </div>
-  </div>
-
+  <% end %>
 </div>
 
 
