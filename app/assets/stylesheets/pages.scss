@@ -115,3 +115,102 @@ html {
     // width: 400px;
   }
 }
+
+
+.hello {
+  text-align: right ;
+  margin-right: 50px;
+  h1 {
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+}
+.profile {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pcards {
+  padding: 30px;
+  margin-top: 10px;
+  width: 700px;
+  height: 30px;
+  border-style: solid;
+  border-width:0px;
+  border-radius: 50px;
+  background: linear-gradient(#fcd307, #ff9900);
+  text-align: center;
+  a {
+    font-family: Orbitron;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+// .tourprofile {
+//   svg {
+//     position: absolute;
+//     height: 500px;
+//     // width: 400px;
+//   }
+// }
+
+
+
+.login {
+  margin-top: 50px;
+  text-align: left;
+  h1 {
+    font-family: Orbitron;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+}
+
+.form {
+  width: 600px;
+  height: 150px;
+  border-radius: 50px;
+  border-style: solid;
+  background-color: #fcd307;
+  border-color: #fcd307;
+  margin-top: 100px;
+  padding: 50px;
+  margin-left: 300px;
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: Orbitron;
+    font-size: 10px;
+  }
+  label {
+    font-family: Orbitron;
+    font-size: 15px;
+  }
+   #user_password {
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  #user_email {
+    width: 200px;
+    margin-left: 30px;
+  }
+  .input.boolean.optional.user_remember_me {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .button {
+    background-color: #c70039;
+    border-color: #c70039;
+    border-radius: 50px;
+    font-family: Orbitron;
+    margin-top: 15px;
+    margin-left: 270px;
+  }
+
+}
+

@@ -13,7 +13,10 @@
           <%= creation.first_photo %>
             <div class="creations">
               <%= link_to creation.title, creation_path(creation) %>
-                <%= link_to 'Edit', edit_creation_path(creation)  %>
+                <% if current_user %>
+              <%= link_to 'Edit', edit_creation_path(creation)  %>
+              <% end %>
+
             </div>
         </div>
     <% else creation.title == 'Creation 3' %>
@@ -21,7 +24,9 @@
           <%= creation.first_photo %>
             <div class="creations">
               <%= link_to creation.title, creation_path(creation) %>
+              <% if current_user %>
               <%= link_to 'Edit', edit_creation_path(creation)  %>
+              <% end %>
             </div>
         </div>
     <% end %>
