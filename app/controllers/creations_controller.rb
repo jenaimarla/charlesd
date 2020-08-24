@@ -26,6 +26,6 @@ class CreationsController < ApplicationController
   private
 
   def creations_params
-    params.require(:creation).permit(:title, :description, :image, :first_photo, :second_photo)
+    params.require(:creation).permit(:title, :description, photos: [])
   end
 end

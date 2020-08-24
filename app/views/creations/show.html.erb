@@ -16,11 +16,9 @@
 
 
   <div class="photo1">
-    <%= @creation.first_photo %>
-  </div>
-
-  <div class="photo2">
-    <%= @creation.second_photo %>
+ <% @creation.photos.each do |photo| %>
+  <%= cl_image_tag photo.key, height: 300, width: 400, crop: :fill %>
+<% end %>
   </div>
 </div>
 

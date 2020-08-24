@@ -2,9 +2,7 @@
 <%= simple_form_for(@creation) do |f| %>
   <%= f.input :title %>
   <%= f.input :description %>
-  <%= f.input :image%>
-  <%= f.input :first_photo %>
-  <%= f.input :second_photo %>
+  <%= f.input :photos, as: :file, input_html: { multiple: true } %>
 
 <%= f.submit class: 'btn btn-primary' %>
 <% end %>
