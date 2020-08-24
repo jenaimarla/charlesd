@@ -112,19 +112,21 @@
   margin-top: 50px;
 }
 
-.photo1, .photo2 {
+.photo1 {
   margin-top: 30px;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #ff9900;
-  border-radius: 3px;
-  width:350px;
+  width:700px;
   height: 450px;
+  display: flex;
+  justify-content: space-around;
   img {
+     border-style: solid;
+    border-width: 10px;
+    border-color: #ff9900;
+    border-radius: 3px;
     width: 250px;
     height: 400px;
-    margin-top: 50px;
-    margin-left: 75px;
+    // margin-top: 50px;
+    // margin-left: 40px;
   }
   h1 {
     font-family: Orbitron;

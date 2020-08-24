@@ -8,9 +8,11 @@
 
 <div class="cards">
   <% @creations.each do |creation|%>
-    <% if creation.title == 'Creation 2' %>
+
         <div class="card1">
-          <%= creation.first_photo %>
+       <% creation.images.last(1).each do |photo| %>
+        <%= cl_image_tag photo.key, crop: :fill %>
+      <% end %>
             <div class="creations">
               <%= link_to creation.title, creation_path(creation) %>
                 <% if current_user %>
@@ -19,17 +21,7 @@
 
             </div>
         </div>
-    <% else creation.title == 'Creation 3' %>
-      <div class="card2">
-          <%= creation.first_photo %>
-            <div class="creations">
-              <%= link_to creation.title, creation_path(creation) %>
-              <% if current_user %>
-              <%= link_to 'Edit', edit_creation_path(creation)  %>
-              <% end %>
-            </div>
-        </div>
-    <% end %>
+
 
   <% end %>
 </div>
