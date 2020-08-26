@@ -15,11 +15,13 @@
       <% end %>
             <div class="creations">
               <%= link_to creation.title, creation_path(creation) %>
+            </div>
+            <div class="edit">
                 <% if current_user %>
               <%= link_to 'Edit', edit_creation_path(creation)  %>
               <% end %>
-
             </div>
+
         </div>
 
 

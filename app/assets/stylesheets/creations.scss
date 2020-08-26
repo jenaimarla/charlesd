@@ -33,40 +33,37 @@
   margin-top: 100px;
 }
 
-.card1, .card2  {
+.card1 {
+  // position: relative;
   border-style: solid;
-  border-width: 3px;
-  border-color: #480032;
+  border-width: 4px;
+  border-color: #54123b;
+  // background-color:#480032;
   border-radius: 3px;
   width:300px;
   height: 400px;
   img {
+    position: relative;
     border-style: solid;
     border-color: #fafafa;
-    border-width: 8px;
+    // border-color: #480032;
+    border-width: 10px;
     border-radius: 5px;
     border-bottom-width: 50px;
-    width: 230px;
-    height: 380px;
+    width: 250px;
+    height: 350px;
     margin-top: 50px;
     margin-left: 75px;
   }
 }
 
-.card2 {
-  margin-top: -50px;
-}
-
-.card3 {
-  margin-top: 40px;
-}
-
 
 .creations {
+  position: absolute;
   display: flex;
   justify-content: space-around;
-  margin-top: 370px;
-  margin-left: 70px;
+  margin-top: -30px;
+  margin-left: 80px;
   border-style: solid;
   border-color: #ff9900;
   background-color: #ff9900;
@@ -83,9 +80,62 @@
   }
 }
 
+.edit {
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 240px;
+  border-style: solid;
+  border-color: #ff9900;
+  border-radius: 50px;
+  // background-color: #ff9900;
+  width:50px;
+  padding: 5px;
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: Orbitron;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
+
+
 .footer {
   // width: 200px;
-  margin-top: 70px;
+  margin-top: 200px;
+  text-align: right;
+  padding: 10px;
+  // border-top-style: solid;
+  // border-left-style: solid;
+  a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron';
+  }
+}
+
+
+.footer-show {
+  // width: 200px;
+  margin-top: 100px;
+  text-align: right;
+  padding: 10px;
+  // border-top-style: solid;
+  // border-left-style: solid;
+  a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron';
+  }
+}
+
+
+.footer-about {
+  // width: 200px;
+
   text-align: right;
   padding: 10px;
   // border-top-style: solid;
@@ -120,11 +170,11 @@
   justify-content: space-around;
   img {
      border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
     border-color: #ff9900;
     border-radius: 3px;
-    width: 250px;
-    height: 400px;
+    width: 300px;
+    height: 450px;
     // margin-top: 50px;
     // margin-left: 40px;
   }

@@ -57,6 +57,7 @@ html {
   border-style: solid;
   border-width: 3px;
   border-color: #fcd307;
+  // background-color: #fcd307;
   padding: 20px;
 }
 
@@ -190,6 +191,7 @@ html {
     font-family: Orbitron;
     font-size: 15px;
   }
+
    #user_password {
     width: 200px;
     margin-left: 30px;
@@ -214,3 +216,11 @@ html {
 
 }
 
+
+.edit-page {
+  h1 {
+    font-family: Orbitron;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+}
