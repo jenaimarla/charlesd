@@ -55,15 +55,14 @@ html {
   margin-left: 500px;
   margin-right: 500px;
   border-style: solid;
-  border-width: 3px;
+  border-width: 5px;
   border-color: #fcd307;
-  // background-color: #fcd307;
   padding: 20px;
 }
 
 .text1{
   position: absolute;
-  margin-left: 700px;
+  margin-left: 650px;
   margin-top: 100px;
   width: 300px;
   height: 300px;
@@ -160,6 +159,7 @@ html {
 // }
 
 
+// login page
 
 .login {
   margin-top: 50px;
@@ -174,6 +174,14 @@ html {
 .form {
   width: 600px;
   height: 150px;
+}
+
+.form-edit {
+  width: 700px;
+  height: 300px;
+}
+
+.form, .form-edit {
   border-radius: 50px;
   border-style: solid;
   background-color: #fcd307;
@@ -191,7 +199,6 @@ html {
     font-family: Orbitron;
     font-size: 15px;
   }
-
    #user_password {
     width: 200px;
     margin-left: 30px;
@@ -200,6 +207,13 @@ html {
   #user_email {
     width: 200px;
     margin-left: 30px;
+  }
+  #creation_title, #creation_description, #creation_photos, #creation_images {
+    margin-left: 30px;
+  }
+  #creation_description {
+    width: 300px;
+    height: 100px;
   }
   .input.boolean.optional.user_remember_me {
     margin-top: 30px;
@@ -214,13 +228,40 @@ html {
     margin-left: 270px;
   }
 
+  .btn.btn-primary {
+    background-color: #c70039;
+    border-color: #c70039;
+    border-radius: 50px;
+    font-family: Orbitron;
+    margin-top: 50px;
+    margin-left: 270px;
+  }
+
+  .input.string.required.creation_description.field_without_errors, .input.file.optional.creation_photos.field_without_errors, .input.file.optional.creation_images.field_without_errors {
+    margin-top: 20px;
+  }
+
+
 }
 
+// edit page
 
 .edit-page {
   h1 {
     font-family: Orbitron;
     font-size: 40px;
     font-weight: lighter;
+  }
+}
+
+.button {
+  margin-top: 100px;
+  float: right;
+  margin-right: 20px;
+  a {
+     padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron';
   }
 }

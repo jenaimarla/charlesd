@@ -34,7 +34,7 @@
 }
 
 .card1 {
-  // position: relative;
+  position: relative;
   border-style: solid;
   border-width: 4px;
   border-color: #54123b;
@@ -46,7 +46,6 @@
     position: relative;
     border-style: solid;
     border-color: #fafafa;
-    // border-color: #480032;
     border-width: 10px;
     border-radius: 5px;
     border-bottom-width: 50px;
@@ -87,7 +86,7 @@
   border-style: solid;
   border-color: #ff9900;
   border-radius: 50px;
-  // background-color: #ff9900;
+  background-color: #ff9900;
   width:50px;
   padding: 5px;
   a {
@@ -102,48 +101,55 @@
 
 
 .footer {
-  // width: 200px;
-  margin-top: 200px;
+  float: right;
+  width: 200px;
+  margin-top: 170px;
+  margin-bottom: 20px;
   text-align: right;
   padding: 10px;
-  // border-top-style: solid;
-  // border-left-style: solid;
+  border-style: solid;
+  background-color:#480032;
+  // border-radius: 50px;
   a {
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Orbitron';
   }
 }
 
 
 .footer-show {
-  // width: 200px;
+  float: right;
+  width: 200px;
   margin-top: 100px;
+  margin-bottom: 20px;
   text-align: right;
   padding: 10px;
-  // border-top-style: solid;
-  // border-left-style: solid;
+  border-style: solid;
+  background-color:#480032;
+
   a {
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Orbitron';
   }
 }
 
 
 .footer-about {
-  // width: 200px;
-
+  float: right;
+  width: 200px;
   text-align: right;
+  margin-bottom: 20px;
   padding: 10px;
-  // border-top-style: solid;
-  // border-left-style: solid;
+   border-style: solid;
+  background-color:#480032;
   a {
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Orbitron';
   }
 }
@@ -155,12 +161,6 @@
   border-top-style: solid;
 }
 
-.photos {
-  display: flex;
-  justify-content: space-around;
-  margin-right: 200px;
-  margin-top: 50px;
-}
 
 .photo1 {
   margin-top: 30px;
@@ -168,15 +168,13 @@
   height: 450px;
   display: flex;
   justify-content: space-around;
+
   img {
-     border-style: solid;
-    border-width: 5px;
+    border-style: solid;
     border-color: #ff9900;
-    border-radius: 3px;
+    border-width: 8px;
     width: 300px;
     height: 450px;
-    // margin-top: 50px;
-    // margin-left: 40px;
   }
   h1 {
     font-family: Orbitron;
