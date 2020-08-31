@@ -43,16 +43,38 @@ html {
 
 // bio
 
+.link {
+  margin-top: 20px;
+  text-align: center;
+  a {
+    text-decoration: none;
+    font-family: 'Orbitron';
+    font-size: 20px;
+    color: black;
+  }
+}
+
+.links {
+  text-align: center;
+  margin-top: 10px;
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron';
+    font-size: 30px;
+  }
+}
+
 
 .text {
   position: absolute;
   width: 300px;
   height: 400px;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 120px;
   position: absolute;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin-left: 550px;
+  margin-right: 550px;
   border-style: solid;
   border-width: 5px;
   border-color: #fcd307;
@@ -61,8 +83,8 @@ html {
 
 .text1{
   position: absolute;
-  margin-left: 650px;
-  margin-top: 100px;
+  margin-left: 750px;
+  margin-top: 150px;
   width: 300px;
   height: 300px;
   h1 {
@@ -81,12 +103,16 @@ html {
 .signature {
   position: relative;
   svg  {
-    margin-left: 800px;
-    margin-top: 400px;
-    transform: rotate(-20deg);
-    height: 300px;
+    margin-left: 640px;
+    margin-top: 550px;
+    // transform: rotate(-20deg);
+    height: 200px;
+    padding: 0px;
   }
 }
+
+
+//LOGIN PAGE
 
 .hello {
   text-align: right ;
@@ -123,8 +149,6 @@ html {
 }
 
 
-// login page
-
 .login {
   margin-top: 50px;
   text-align: left;
@@ -134,6 +158,8 @@ html {
     font-weight: lighter;
   }
 }
+
+// FORMS
 
 .form {
   width: 600px;
@@ -208,7 +234,7 @@ html {
 
 }
 
-// edit page
+// EDIT PAGE FORM
 
 .edit-page {
   h1 {
@@ -239,7 +265,13 @@ and (max-device-width : 568px)
 
 {
 
-  .link {
+  .writing {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+ .link {
     a {
       font-size: 50px;
     }
@@ -252,19 +284,13 @@ and (max-device-width : 568px)
 }
 
 
-  .writing {
-  h1 {
-    font-size: 30px;
-  }
-}
-
   .text {
     margin-left: 0px;
-  width: 900px;
-  height: 1400px;
-  margin-top: 300px;
-  border-width: 15px;
-}
+    width: 900px;
+    height: 1400px;
+    margin-top: 300px;
+    border-width: 15px;
+  }
 
 .text1{
   margin-left: 650px;
@@ -285,14 +311,17 @@ and (max-device-width : 568px)
 
 
 .signature {
-  position: relative;
+  position: absolute;
+
   svg  {
+  position: relative;
     margin-left: 300px;
     margin-top: 2000px;
     transform: rotate(-10deg);
     height: 600px;
   }
 }
+
 
 
 

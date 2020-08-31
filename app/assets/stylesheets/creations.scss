@@ -5,9 +5,6 @@
 .link {
   margin-top: 20px;
   text-align: center;
-  //  border-bottom-style: solid;
-  // border-bottom-color: #ff9900;
-  // border-bottom-width: 2px;
   a {
     text-decoration: none;
     font-family: 'Orbitron';
@@ -288,9 +285,9 @@ and (max-device-width : 568px)
     border-style: solid;
     border-width:5px;
     border-color: #ff9900;
-    width:940px;
+    width:950px;
     height: 700px;
-    margin-top: 50px;
+    margin: 50px auto;
     display: flex;
     justify-content: space-around;
       img {
