@@ -97,6 +97,7 @@ html {
     font-weight: lighter;
   }
 }
+
 .profile {
   margin-top: 150px;
   display: flex;
@@ -230,17 +231,70 @@ html {
 }
 
 
+// RESPONSIVENESS
+
 @media only screen
-and (min-width : 320px)
-and (max-width : 568px)
+and (min-device-width : 320px)
+and (max-device-width : 568px)
 
 {
+
+  .link {
+    a {
+      font-size: 50px;
+    }
+  }
+
+.links {
+  a {
+    font-size: 60px;
+  }
+}
+
 
   .writing {
   h1 {
     font-size: 30px;
   }
 }
+
+  .text {
+    margin-left: 0px;
+  width: 900px;
+  height: 1400px;
+  margin-top: 300px;
+  border-width: 15px;
+}
+
+.text1{
+  margin-left: 650px;
+  margin-top: 300px;
+  width: 500px;
+  height: 300px;
+  h1 {
+    text-align: center;
+    font-family: 'News Cycle';
+    color: black;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  em {
+    font-size: 12px;
+  }
+}
+
+
+.signature {
+  position: relative;
+  svg  {
+    margin-left: 300px;
+    margin-top: 2000px;
+    transform: rotate(-10deg);
+    height: 600px;
+  }
+}
+
+
 
 }
 

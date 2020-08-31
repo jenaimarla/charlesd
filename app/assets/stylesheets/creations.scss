@@ -164,21 +164,21 @@
   }
 }
 
-.footer-about {
-  float: right;
-  width: 200px;
-  text-align: right;
-  margin-bottom: 20px;
-  padding: 10px;
-   border-style: solid;
-  background-color:#480032;
-  a {
-    padding: 5px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Orbitron';
-  }
-}
+// .footer-about {
+//   float: right;
+//   width: 200px;
+//   text-align: right;
+//   margin-bottom: 20px;
+//   padding: 10px;
+//    border-style: solid;
+//   background-color:#480032;
+//   a {
+//     padding: 5px;
+//     text-decoration: none;
+//     color: white;
+//     font-family: 'Orbitron';
+//   }
+// }
 
 .show  {
   display: flex;
@@ -208,11 +208,28 @@
   }
 }
 
+
+// RESPONSIVENESS
+
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 
 {
+
+  .link {
+    a {
+      font-size: 50px;
+    }
+  }
+
+.links {
+  a {
+    font-size: 60px;
+  }
+}
+
 
   .cards {
     display: flex;
@@ -224,16 +241,39 @@ and (max-device-width : 568px)
   }
 
   .card1 {
-    margin-top: 150px;
+    margin-top: 200px;
+    width:700px;
+    height: 950px;
+      img {
+      width: 550px;
+      height: 840px;
+      margin-top: 100px;
+      margin-left: 175px;
+    }
   }
 
+  .creations {
+  margin-left: 220px;
+  width:300px;
+  a {
+    font-size: 30px;
+  }
+}
+
+.edit {
+  margin-top: 50px;
+  width:70px;
+  a {
+    font-size: 20px;
+  }
+}
 
   .footer {
-    width: 150px;
+    margin-top: 300px;
+    width: 420px;
     text-align: center;
-
     a {
-      font-size: 10px;
+      font-size: 30px;
     }
   }
 
@@ -245,41 +285,51 @@ and (max-device-width : 568px)
   }
 
   .photo1 {
+    border-style: solid;
+    border-width:5px;
+    border-color: #ff9900;
+    width:940px;
+    height: 700px;
+    margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    flex-direction: column-reverse;
       img {
+        margin-top: 90px;
+        width: 400px;
+        height: 600px;
         border-style: solid;
-        border-color: #ff9900;
-        border-width: 8px;
-        width: 300px;
-        height: 450px;
+        border-color: #fafafa;
+        border-width: 10px;
+        border-radius: 5px;
+        border-bottom-width: 50px;
       }
   }
 
   .tour {
-    // margin-top: 50px;
-    width: 350px;
+    min-height: 900px;
+    width: 450px;
     h1 {
-      margin-top: 20px;
+      margin-top: 100px;
+      font-size: 50px;
     }
     p {
-      font-size: 15px;
-      margin: 50px;
+      font-size: 30px;
+      margin-top: 200px;
     }
     svg {
-      margin-top:100px;
-      margin-left: 240px;
-      height: 400px;
+      margin-top:300px;
+      margin-left: 220px;
+      height: 800px;
     }
   }
 
   .footer-show {
-    width: 150px;
-    text-align: center;
+    margin-top: 200px;
+    width: 420px;
     a {
-      font-size: 10px;
+      font-size: 30px;
     }
   }
+
+
 }
