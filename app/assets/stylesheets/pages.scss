@@ -2,12 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-//home
-
 html {
   background-color: #eeeeee;
 }
+
+//home
 
 .writing {
   position: relative;
@@ -89,34 +88,6 @@ html {
   }
 }
 
-.tour {
-  border-bottom-style: solid;
-  text-align: left;
-  width: 550px;
-  h1 {
-    font-size: 25px;
-    font-family: Orbitron;
-    font-weight: lighter;
-    position: relative;
-  }
-  p {
-    font-family:'News Cycle';
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: lighter;
-    position: relative;
-    margin: 50px;
-  }
-  svg {
-    margin-top:100px;
-    margin-left: 380px;
-    position: absolute;
-    height: 500px;
-    // width: 400px;
-  }
-}
-
-
 .hello {
   text-align: right ;
   margin-right: 50px;
@@ -149,14 +120,6 @@ html {
     color: black;
   }
 }
-
-// .tourprofile {
-//   svg {
-//     position: absolute;
-//     height: 500px;
-//     // width: 400px;
-//   }
-// }
 
 
 // login page
@@ -264,4 +227,21 @@ html {
     color: black;
     font-family: 'Orbitron';
   }
+}
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 568px)
+
+{
+
+  .writing {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+
+
+
 }

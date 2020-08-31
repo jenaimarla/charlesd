@@ -16,14 +16,14 @@
 
 
   <div class="photo1">
- <% @creation.photos.last(2).each do |photo| %>
-  <%= cl_image_tag photo.key, crop: :fill %>
-<% end %>
+    <% @creation.photos.last(2).each do |photo| %>
+      <%= cl_image_tag photo.key, crop: :fill %>
+    <% end %>
   </div>
 </div>
 
 
 <div class="footer-show">
-<a href="https://www.instagram.com/charlesdur.nd/" style='font-size:15px'>instagram</a>, <a href="mailto: hi@charlesdurand.com" style='font-size:15px'>contact</a></ul>
+  <a href="https://www.instagram.com/charlesdur.nd/">instagram</a>, <a href="mailto: hi@charlesdurand.com">contact</a></ul>
 </div>
 

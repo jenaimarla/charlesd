@@ -56,6 +56,33 @@
   }
 }
 
+.tour {
+  border-bottom-style: solid;
+  text-align: left;
+  width: 550px;
+  h1 {
+    font-size: 25px;
+    font-family: Orbitron;
+    font-weight: lighter;
+    position: relative;
+  }
+  p {
+    font-family:'News Cycle';
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    margin: 50px;
+  }
+  svg {
+    margin-top:100px;
+    margin-left: 380px;
+    position: absolute;
+    height: 500px;
+    // width: 400px;
+  }
+}
+
 
 .creations {
   position: absolute;
@@ -137,7 +164,6 @@
   }
 }
 
-
 .footer-about {
   float: right;
   width: 200px;
@@ -168,7 +194,6 @@
   height: 450px;
   display: flex;
   justify-content: space-around;
-
   img {
     border-style: solid;
     border-color: #ff9900;
@@ -180,5 +205,81 @@
     font-family: Orbitron;
     font-weight:lighter;
     text-align: right;
+  }
+}
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 568px)
+
+{
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    margin-top: -50px;
+    margin-left: 120px;
+  }
+
+  .card1 {
+    margin-top: 150px;
+  }
+
+
+  .footer {
+    width: 150px;
+    text-align: center;
+
+    a {
+      font-size: 10px;
+    }
+  }
+
+  .show  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+
+  .photo1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+      img {
+        border-style: solid;
+        border-color: #ff9900;
+        border-width: 8px;
+        width: 300px;
+        height: 450px;
+      }
+  }
+
+  .tour {
+    // margin-top: 50px;
+    width: 350px;
+    h1 {
+      margin-top: 20px;
+    }
+    p {
+      font-size: 15px;
+      margin: 50px;
+    }
+    svg {
+      margin-top:100px;
+      margin-left: 240px;
+      height: 400px;
+    }
+  }
+
+  .footer-show {
+    width: 150px;
+    text-align: center;
+    a {
+      font-size: 10px;
+    }
   }
 }
