@@ -150,20 +150,21 @@ html {
 
 
 .login {
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: left;
+  padding: 20px;
   h1 {
     font-family: Orbitron;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: lighter;
   }
 }
 
 // FORMS
 
-.form {
+.form, .form-sign {
   width: 600px;
-  height: 150px;
+  height: 170px;
 }
 
 .form-edit {
@@ -171,12 +172,23 @@ html {
   height: 300px;
 }
 
-.form, .form-edit {
+.form-forgot {
+  width: 600px;
+  height: 100px;
+}
+
+.error_notification, .error {
+  font-family: Orbitron;
+  font-size: 10px;
+  margin: 5px;
+}
+
+.form, .form-edit, .form-sign, .form-forgot {
   border-radius: 50px;
   border-style: solid;
   background-color: #fcd307;
   border-color: #fcd307;
-  margin-top: 100px;
+  margin-top: 60px;
   padding: 50px;
   margin-left: 300px;
   a {
@@ -189,7 +201,15 @@ html {
     font-family: Orbitron;
     font-size: 15px;
   }
-   #user_password {
+  .btn {
+    background-color: #c70039;
+    border-color: #c70039;
+    border-radius: 50px;
+    font-family: Orbitron;
+    margin-top: 20px;
+    margin-left: 270px;
+  }
+   #user_password, #user_password_confirmation {
     width: 200px;
     margin-left: 30px;
     margin-top: 15px;
@@ -201,13 +221,18 @@ html {
   #creation_title, #creation_description, #creation_photos, #creation_images {
     margin-left: 30px;
   }
+
+  #creation_photos, #creation_images {
+    margin-top: 20px;
+  }
+
   #creation_description {
     width: 300px;
     height: 100px;
   }
   .input.boolean.optional.user_remember_me {
     margin-top: 30px;
-    text-align: center;
+    // text-align: center;
   }
   .button {
     background-color: #c70039;
@@ -231,12 +256,24 @@ html {
     margin-top: 20px;
   }
 
+  .password.required {
+    margin-top: 10px;
+  }
+
+  .hint{
+    font-family: Orbitron;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
 
 }
 
 // EDIT PAGE FORM
 
 .edit-page {
+  margin-top: 20px;
+  padding: 20px;
   h1 {
     font-family: Orbitron;
     font-size: 40px;
@@ -322,8 +359,134 @@ and (max-device-width : 568px)
   }
 }
 
+.edit-page {
+  h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 400px;
+  }
+}
+
+.button {
+  margin-top: 250px;
+  a {
+    font-size: 50px;
+  }
+}
+
+.form-edit {
+  width: 800px;
+  height: 700px;
+  margin: 150px auto;
+
+   #creation_title, #creation_description, #creation_photos, #creation_images {
+      margin-top: 60px;
+    }
+
+    #creation_title{
+      height: 30px;
+    }
+
+    .btn.btn-primary {
+    background-color: #c70039;
+    border-color: #c70039;
+    border-radius: 50px;
+    font-family: Orbitron;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 270px;
+    }
+
+  label {
+      font-size: 30px;
+    }
+  }
 
 
+  .hello {
+    margin-top: 200px;
+    h1 {
+      font-size: 70px;
+    }
+  }
+
+  .profile {
+    margin-top: 200px;
+  }
+
+  .pcards {
+    padding: 80px;
+    margin-top: 50px;
+    width: 800px;
+    height: 100px;
+    a {
+      font-size: 50px;
+
+    }
+  }
+
+  .login {
+    margin-top: 400px;
+    text-align: center;
+    h1 {
+      font-size: 100px;
+    }
+  }
+
+  .form-forgot {
+    width: 800px;
+    height: 200px;
+    margin: 150px auto;
+    a {
+      font-size: 20px;
+    }
+    label {
+      font-size: 40px;
+    }
+    .btn {
+      font-size: 20px;
+      width: 500px;
+      margin: 50px 0px 50px 150px;
+    }
+  }
+
+  .form, .form-sign {
+    width: 800px;
+    height: 400px;
+    margin: 150px auto;
+    a {
+      font-size: 20px;
+    }
+    label {
+      font-size: 40px;
+    }
+    #user_password {
+      margin-top: 50px;
+    }
+    #user_remember_me {
+      height: 30px;
+      width: 30px;
+    }
+    .input.boolean.optional.user_remember_me {
+      margin-top: 60px;
+    }
+
+    .btn {
+      font-size: 30px;
+      font-family: Orbitron;
+      margin-top: 50px;
+    }
+  }
+
+  .form-sign {
+    .btn {
+      font-size: 30px;
+      width: 200px;
+      margin-top: 80px;
+      margin-bottom: 50px;
+    }
+
+  }
 
 }
 

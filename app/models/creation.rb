@@ -9,6 +9,8 @@ class Creation < ApplicationRecord
   validates :image, presence: true
   validates :first_photo, presence: true
   validates :second_photo, presence: true
+  validates :photos, presence: true
+  validates :images, presence: true
   # validates :photos, presence: true
 
 
