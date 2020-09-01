@@ -79,24 +79,20 @@ html {
   border-width: 5px;
   border-color: #fcd307;
   padding: 20px;
-}
-
-.text1{
-  position: absolute;
-  margin-left: 750px;
-  margin-top: 150px;
-  width: 300px;
-  height: 300px;
-  h1 {
-    text-align: center;
-    font-family: 'News Cycle';
-    color: black;
-    font-size: 15px;
-    font-weight: lighter;
-  }
-  em {
-    font-size: 12px;
-  }
+    h1 {
+      margin-left: 150px;
+      // margin-top: 150px;
+      width: 300px;
+      height: 300px;
+      text-align: center;
+      font-family: 'News Cycle';
+      color: black;
+      font-size: 15px;
+      font-weight: lighter;
+    }
+    em {
+      font-size: 12px;
+    }
 }
 
 
@@ -104,7 +100,7 @@ html {
   position: relative;
   svg  {
     margin-left: 640px;
-    margin-top: 550px;
+    margin-top: 600px;
     // transform: rotate(-20deg);
     height: 200px;
     padding: 0px;
@@ -327,24 +323,22 @@ and (max-device-width : 568px)
     height: 1400px;
     margin-top: 300px;
     border-width: 15px;
+      h1 {
+      margin-left: 400px;
+      margin-top: -45px;
+      width: 700px;
+      height: 100px;
+        text-align: center;
+        font-family: 'News Cycle';
+        color: black;
+        font-size: 50px;
+        font-weight: lighter;
+      }
+      em {
+        font-size: 30px;
+      }
   }
 
-.text1{
-  margin-left: 650px;
-  margin-top: 300px;
-  width: 500px;
-  height: 300px;
-  h1 {
-    text-align: center;
-    font-family: 'News Cycle';
-    color: black;
-    font-size: 40px;
-    font-weight: lighter;
-  }
-  em {
-    font-size: 12px;
-  }
-}
 
 
 .signature {

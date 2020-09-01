@@ -17,7 +17,9 @@
 
   <div class="photo1">
     <% @creation.photos.last(2).each do |photo| %>
+    <div class="photo2">
       <%= cl_image_tag photo.key, crop: :fill %>
+    </div>
     <% end %>
   </div>
 </div>

@@ -205,6 +205,11 @@
   }
 }
 
+// .photo2 {
+//   border-style: solid;
+//     border-color: #ff9900;
+//     border-width: 8px;
+// }
 
 // RESPONSIVENESS
 
@@ -236,6 +241,8 @@ and (max-device-width : 568px)
     margin-top: -50px;
     margin-left: 120px;
   }
+
+
 
   .card1 {
     margin-top: 200px;
@@ -288,8 +295,6 @@ and (max-device-width : 568px)
     width:950px;
     height: 700px;
     margin: 50px auto;
-    display: flex;
-    justify-content: space-around;
       img {
         margin-top: 90px;
         width: 400px;
@@ -302,20 +307,21 @@ and (max-device-width : 568px)
       }
   }
 
+
   .tour {
     min-height: 900px;
-    width: 450px;
+    width: 500px;
     h1 {
       margin-top: 100px;
       font-size: 50px;
     }
     p {
-      font-size: 30px;
+      font-size: 40px;
       margin-top: 200px;
     }
     svg {
-      margin-top:300px;
-      margin-left: 220px;
+      margin-top:200px;
+      margin-left: 250px;
       height: 800px;
     }
   }
