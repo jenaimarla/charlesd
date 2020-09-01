@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 2020_08_24_080041) do
   create_table "creations", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "title"
+    t.string "name"
     t.string "description"
     t.string "image"
     t.string "first_photo"
