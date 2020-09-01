@@ -4,7 +4,7 @@ class Creation < ApplicationRecord
    has_many_attached :photos
    has_many_attached :images
 
-  validates :name, presence: true
+  validates :title, presence: true
   validates :description, presence: true
   validates :image, presence: true
   validates :first_photo, presence: true
