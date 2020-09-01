@@ -452,7 +452,7 @@ and (max-device-width : 568px)
 
   .form, .form-sign {
     width: 800px;
-    height: 420px;
+    height: 440px;
     margin: 150px auto;
     a {
       font-size: 20px;
@@ -471,11 +471,16 @@ and (max-device-width : 568px)
       margin-top: 60px;
     }
 
+  }
+
+  .form {
     .btn {
       font-size: 30px;
       font-family: Orbitron;
       margin-top: 50px;
+      margin-bottom: 50px;
     }
+
   }
 
   .form-sign {
