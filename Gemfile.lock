@@ -249,7 +249,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   carrierwave
   chromedriver-helper
-  cloudinary (~> 1.12.0)
+  cloudinary
   coffee-rails (~> 4.2)
   devise
   dotenv-rails
