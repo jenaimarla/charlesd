@@ -15,7 +15,7 @@ class CreationsController < ApplicationController
   end
 
   def update
-    @creation = Creation.find(params[:id])
+    @creation = current_user.creations.find_by(id: params[:id])
     @creation.update(creations_params)
       redirect_to creations_path
   end
