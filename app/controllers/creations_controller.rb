@@ -11,7 +11,7 @@ class CreationsController < ApplicationController
 
 
   def edit
-    @creation = Creation.find(params[:id])
+    @creation = current_user.creations.find_by(id: params[:id])
   end
 
   def update
