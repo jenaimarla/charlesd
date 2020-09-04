@@ -11,11 +11,11 @@ class CreationsController < ApplicationController
 
 
   def edit
-    @creation = current_user.creations.find_by(id: params[:id])
+    @creation = current_user.creations.find(params[:id])
   end
 
   def update
-    @creation = current_user.creations.find_by(id: params[:id])
+    @creation = Creation.find(params[:id])
     @creation.update(creations_params)
       redirect_to creations_path
   end
