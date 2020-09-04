@@ -9,8 +9,8 @@
 <div class="cards">
   <% @creations.each do |creation|%>
         <div class="card1">
-          <% creation.images.last(1).each do |photo| %>
-            <%= cl_image_tag photo.key, crop: :fill %>
+          <% creation.images.last(1).each do |image| %>
+            <%= cl_image_tag image.key, crop: :fill %>
           <% end %>
             <div class="creations">
               <%= link_to creation.name, creation_path(creation) %>
