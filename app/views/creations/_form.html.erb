@@ -1,9 +1,9 @@
 <div class="form-edit">
-<%= simple_form_for(@creation) do |f| %>
-  <%= f.input :name %>
-  <%= f.input :description %>
-  <%= f.input :photos, as: :file, input_html: { multiple: true } %>
-<%= f.input :images, as: :file, input_html: { multiple: true } %>
-<%= f.submit class: 'btn btn-primary' %>
-<% end %>
+  <%= simple_form_for(@creation) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :description, as: :text, autofocus: true, :input_html => {:rows => 5} %>
+    <%= f.input :photos, as: :file, input_html: { multiple: true } %>
+    <%= f.input :images, as: :file, input_html: { multiple: true } %>
+    <%= f.submit class: 'btn btn-primary' %>
+  <% end %>
 </div>

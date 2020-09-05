@@ -38,6 +38,9 @@ html {
  object-fit: cover;
  top: 0;
  z-index: -2;
+ left: 0;
+ right: 0;
+ bottom: 0;
 }
 
 
@@ -66,7 +69,7 @@ html {
 }
 
 
-.text {
+.bio {
   position: absolute;
   width: 300px;
   height: 400px;
@@ -196,6 +199,9 @@ html {
   label {
     font-family: Orbitron;
     font-size: 15px;
+    .text.required {
+      margin-top: -20px;
+    }
   }
   .btn {
     background-color: #c70039;
@@ -214,7 +220,7 @@ html {
     width: 200px;
     margin-left: 30px;
   }
-  #creation_title, #creation_description, #creation_photos, #creation_images {
+  #creation_name, #creation_description, #creation_photos, #creation_images {
     margin-left: 30px;
   }
 
@@ -224,8 +230,10 @@ html {
 
   #creation_description {
     width: 300px;
-    height: 100px;
+    height: 50px;
+    margin-top: 20px;
   }
+
   .input.boolean.optional.user_remember_me {
     margin-top: 30px;
     // text-align: center;
@@ -250,6 +258,9 @@ html {
 
   .input.string.required.creation_description.field_without_errors, .input.file.optional.creation_photos.field_without_errors, .input.file.optional.creation_images.field_without_errors {
     margin-top: 20px;
+    .file.optional {
+      font-family: Orbitron;
+    }
   }
 
   .password.required {
@@ -304,11 +315,12 @@ and (max-device-width : 568px)
   }
 }
 
+
  .link {
     a {
       font-size: 50px;
     }
-  }
+}
 
 .links {
   a {
@@ -316,21 +328,19 @@ and (max-device-width : 568px)
   }
 }
 
-
-  .text {
+  .bio {
     margin-left: 0px;
-    width: 900px;
-    height: 1400px;
+    width: 700px;
+    height: 1200px;
     margin-top: 300px;
     border-width: 15px;
       h1 {
-      margin-left: 400px;
-      width: 700px;
-      height: 100px;
+        margin-left: 200px;
+        width: 700px;
         text-align: center;
         font-family: 'News Cycle';
         color: black;
-        font-size: 45px;
+        font-size: 42px;
         font-weight: lighter;
       }
       em {
@@ -342,13 +352,12 @@ and (max-device-width : 568px)
 
 .signature {
   position: absolute;
-
   svg  {
   position: relative;
-    margin-left: 300px;
-    margin-top: 2000px;
-    transform: rotate(-10deg);
-    height: 600px;
+    margin-left: 50px;
+    margin-top: 1500px;
+    transform: rotate(-20deg);
+    height: 400px;
   }
 }
 
@@ -372,11 +381,11 @@ and (max-device-width : 568px)
   height: 700px;
   margin: 150px auto;
 
-   #creation_title, #creation_description, #creation_photos, #creation_images {
+   #creation_name, #creation_description, #creation_photos, #creation_images {
       margin-top: 60px;
     }
 
-    #creation_title{
+    #creation_name{
       height: 30px;
     }
 
@@ -393,6 +402,7 @@ and (max-device-width : 568px)
   label {
       font-size: 30px;
     }
+
   }
 
 
