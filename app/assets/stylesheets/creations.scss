@@ -131,12 +131,12 @@
   text-align: center;
   padding: 10px;
   // border-style: solid;
-  background: linear-gradient(#eeeeee, #fcd307, #eeeeee);
+  background-color: #480039;
   // border-radius: 50px;
   a {
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Orbitron';
   }
 }
@@ -149,11 +149,11 @@
   margin-bottom: 20px;
   text-align: center;
   padding: 10px;
-  background: linear-gradient(#eeeeee, #fcd307, #eeeeee);
+  background-color: #480039;
   a {
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Orbitron';
   }
 }
@@ -214,7 +214,6 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
-and (-webkit-device-pixel-ratio : 3)
 
 {
 
