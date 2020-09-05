@@ -31,11 +31,10 @@
 }
 
 .card1 {
-  position: relative;
+  // position: absolute;
   border-style: solid;
   border-width: 4px;
   border-color: #54123b;
-  // background-color:#480032;
   border-radius: 3px;
   width:300px;
   height: 400px;
@@ -129,15 +128,15 @@
   width: 200px;
   margin-top: 170px;
   margin-bottom: 20px;
-  text-align: right;
+  text-align: center;
   padding: 10px;
-  border-style: solid;
-  background-color:#480032;
+  // border-style: solid;
+  background: linear-gradient(#eeeeee, #fcd307, #eeeeee);
   // border-radius: 50px;
   a {
     padding: 5px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Orbitron';
   }
 }
@@ -148,15 +147,13 @@
   width: 200px;
   margin-top: 100px;
   margin-bottom: 20px;
-  text-align: right;
+  text-align: center;
   padding: 10px;
-  border-style: solid;
-  background-color:#480032;
-
+  background: linear-gradient(#eeeeee, #fcd307, #eeeeee);
   a {
     padding: 5px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Orbitron';
   }
 }
@@ -217,6 +214,7 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
+and (-webkit-device-pixel-ratio : 3)
 
 {
 
