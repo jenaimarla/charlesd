@@ -69,13 +69,13 @@
     font-weight: lighter;
     position: relative;
     margin: 50px;
+    white-space: pre-line;
   }
   svg {
     margin-top:100px;
     margin-left: 380px;
     position: absolute;
     height: 500px;
-    // width: 400px;
   }
 }
 
@@ -130,9 +130,7 @@
   margin-bottom: 20px;
   text-align: center;
   padding: 10px;
-  // border-style: solid;
   background-color: #480039;
-  // border-radius: 50px;
   a {
     padding: 5px;
     text-decoration: none;
@@ -158,21 +156,6 @@
   }
 }
 
-// .footer-about {
-//   float: right;
-//   width: 200px;
-//   text-align: right;
-//   margin-bottom: 20px;
-//   padding: 10px;
-//    border-style: solid;
-//   background-color:#480032;
-//   a {
-//     padding: 5px;
-//     text-decoration: none;
-//     color: white;
-//     font-family: 'Orbitron';
-//   }
-// }
 
 .show  {
   display: flex;
@@ -202,14 +185,64 @@
   }
 }
 
-// .photo2 {
-//   border-style: solid;
-//     border-color: #ff9900;
-//     border-width: 8px;
-// }
 
 // RESPONSIVENESS
 
+@media (max-width: 1000px) {
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    margin-left: 120px;
+  }
+
+  .card1 {
+    margin-top: 200px;
+  }
+
+  .show  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+
+  .photo1 {
+    border-style: solid;
+    border-width:5px;
+    border-color: #ff9900;
+    width:650px;
+    height: 400px;
+    margin: 50px auto;
+      img {
+        margin-top: 20px;
+        width: 250px;
+        height: 400px;
+        border-style: solid;
+        border-color: #fafafa;
+        border-width: 10px;
+        border-radius: 5px;
+        border-bottom-width: 50px;
+      }
+  }
+
+  .tour {
+    h1 {
+      margin-top: 100px;
+    }
+    p {
+      margin-top: 50px;
+    }
+    svg {
+      margin-top:50px;
+      margin-left: 400px;
+      height: 400px;
+    }
+  }
+
+}
 
 @media only screen
 and (min-device-width : 320px)
@@ -330,6 +363,5 @@ and (max-device-width : 568px)
       font-size: 30px;
     }
   }
-
 
 }

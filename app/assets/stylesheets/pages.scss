@@ -293,7 +293,7 @@ html {
   float: right;
   margin-right: 20px;
   a {
-     padding: 20px;
+    padding: 20px;
     text-decoration: none;
     color: black;
     font-family: 'Orbitron';
@@ -302,6 +302,95 @@ html {
 
 
 // RESPONSIVENESS
+
+
+@media (max-width: 1000px) {
+
+.login {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+  .pcards {
+    width: 400px;
+  }
+
+  .form, .form-edit, .form-sign, .form-forgot {
+    margin: 60px auto;
+  }
+
+  .edit-page {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  .form {
+    width: 350px;
+    height: 170px;
+  }
+
+  .form-sign {
+    width: 350px;
+    height: 180px;
+    .hint{
+      font-family: Orbitron;
+      font-size: 8px;
+      margin-left: 10px;
+    }
+    #user_password_confirmation {
+      width: 100px;
+    }
+  }
+
+  .form-forgot {
+    .btn {
+      margin-left: 100px;
+    }
+  }
+
+  .form-edit {
+    width: 350px;
+    height: 250px;
+    .btn.btn-primary {
+      margin-top: 50px;
+      margin-left: 200px;
+    }
+    #creation_description {
+      width: 200px;
+    }
+  }
+
+  .button {
+    margin-top: 50px;
+  }
+
+  .form-forgot {
+    width: 350px;
+    height: 100px;
+  }
+
+  .writing {
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .bio {
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+
+  .signature {
+  position: absolute;
+  svg  {
+  position: relative;
+    margin-left: 50px;
+    transform: rotate(-20deg);
+  }
+}
+}
 
 @media only screen
 and (min-device-width : 320px)
