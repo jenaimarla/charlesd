@@ -168,7 +168,7 @@ html {
 
 .form-edit {
   width: 700px;
-  height: 300px;
+  height: 250px;
 }
 
 .form-forgot {
@@ -226,6 +226,9 @@ html {
 
   #creation_photos, #creation_images {
     margin-top: 20px;
+    .file.optional {
+      font-family: Orbitron;
+    }
   }
 
   #creation_description {
@@ -236,8 +239,8 @@ html {
 
   .input.boolean.optional.user_remember_me {
     margin-top: 30px;
-    // text-align: center;
   }
+
   .button {
     background-color: #c70039;
     border-color: #c70039;
