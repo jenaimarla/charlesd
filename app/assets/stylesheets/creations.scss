@@ -188,6 +188,7 @@
 
 // RESPONSIVENESS
 
+
 @media (max-width: 1000px) {
 
   .cards {
@@ -230,6 +231,7 @@
   }
 
   .tour {
+    min-height: 350px;
     h1 {
       margin-top: 100px;
     }
@@ -242,6 +244,7 @@
       height: 400px;
     }
   }
+
 
 }
 
@@ -257,11 +260,11 @@ and (max-device-width : 568px)
     }
   }
 
-.links {
-  a {
-    font-size: 60px;
+  .links {
+    a {
+      font-size: 60px;
+    }
   }
-}
 
 
   .cards {
