@@ -409,12 +409,15 @@ and (max-device-width : 568px)
 
 
  .link {
+  text-align: left;
     a {
       font-size: 50px;
     }
 }
 
 .links {
+  display: flex;
+  justify-content: space-between;
   a {
     font-size: 60px;
   }
