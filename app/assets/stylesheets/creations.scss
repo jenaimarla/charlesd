@@ -124,10 +124,12 @@
 
 
 .footer {
-  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
   width: 200px;
-  margin-top: 170px;
-  margin-bottom: 20px;
   text-align: center;
   padding: 10px;
   background-color: #480039;
@@ -141,10 +143,12 @@
 
 
 .footer-show {
-  float: right;
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
   width: 200px;
-  margin-top: 100px;
-  margin-bottom: 20px;
   text-align: center;
   padding: 10px;
   background-color: #480039;
